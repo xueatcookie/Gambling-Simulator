@@ -27,7 +27,7 @@ void CoinFlipG() {
     cin >> a;
     while (a > PlayerMoney || a <= 0) {
         cout << endl << "INVALID BET" << endl;
-        cout << "Your ballance is $" << PlayerMoney << endl;
+        cout << "Your balance is $" << PlayerMoney << endl;
         cout << "Enter another bet: ";
         cin >> a;
     }
