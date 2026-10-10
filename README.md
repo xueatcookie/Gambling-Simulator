@@ -1,2 +1,6 @@
 This is just a project I wanted to do for fun, please run it if you want, I update this constantly so you might always find new features as days pass by.
 If you are a random person with somehow no compiler I recommend using www.programiz.com.
+
+Current game:
+Coin Flip
+Roulette
