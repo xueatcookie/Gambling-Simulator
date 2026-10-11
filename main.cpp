@@ -114,16 +114,16 @@ void CoinFlipG() {
         if (coinguess == coinresult) {
             cout << "You have doubled your money!" << endl;
             cout << "$" << PlayerMoney << " ---> "
-                 << "$" << PlayerMoney + a * 2;
+                 << "$" << PlayerMoney + a;
 
-            PlayerMoney = PlayerMoney + a * 2;
+            PlayerMoney += a;
         }
         else {
             cout << "You have lost your money!" << endl;
             cout << "$" << PlayerMoney << " ---> "
                  << "$" << PlayerMoney - a;
 
-            PlayerMoney = PlayerMoney - a;
+            PlayerMoney -= a;
         }
 
         if (PlayerMoney <= 0 || PlayerMoney >= 10000) {
@@ -234,23 +234,23 @@ void Roulette() {
             cout << "You Are So Lucky" << endl;
             cout << "You Have Seven Times Your Money Now!" << endl;
             cout << "$" << PlayerMoney << " ---> "
-                 << "$" << PlayerMoney + a * 7;
+                 << "$" << PlayerMoney + a * 6;
 
-            PlayerMoney = PlayerMoney + a * 7;
+            PlayerMoney += a * 6;
         }
         else if (playerguess == end) {
             cout << "You have doubled your money!" << endl;
             cout << "$" << PlayerMoney << " ---> "
-                 << "$" << PlayerMoney + a * 2;
+                 << "$" << PlayerMoney + a;
 
-            PlayerMoney = PlayerMoney + a * 2;
+            PlayerMoney += a;
         }
         else {
             cout << "You have lost your money!" << endl;
             cout << "$" << PlayerMoney << " ---> "
                  << "$" << PlayerMoney - a;
 
-            PlayerMoney = PlayerMoney - a;
+            PlayerMoney -= a;
         }
 
         if (PlayerMoney <= 0 || PlayerMoney >= 10000) {
